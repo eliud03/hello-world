@@ -1,0 +1,40 @@
+comandos usandos en github 
+
+//Inicia GIT en tu computadora
+git init
+
+//Variables de acceso a GitHub
+git config --global user.name "eliud03"
+git config --global user.email "ciz2803@gmail.com"
+
+//Ver la configuracion ingresada
+git config --list
+
+//Acceder al repository 
+git remote add origin URL
+
+//Descargar lo contenido en el branch 
+git pull origin NAMEBRANCH
+
+//Agregar todo a lista de archivo a subir al branch
+git add .
+
+//Agregar un archivo en especifico
+git add NombreArchivo NombreArchivo2
+
+//Agregar Comentarios a los archivos
+git commit -m "Titulo - Descripcion - Usuario"
+
+//Subirlos todo a tu branch o subir un nuevo branch
+git push origin NombreBranch
+
+
+//Crear un nuevo branch desde consola
+git branch NombreBranch
+
+//ver lista de branch
+git branch
+
+//cambiar entre branch
+git checkout NombreBranch
+
